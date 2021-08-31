@@ -1,0 +1,1 @@
+#This project is a node project, using express and mysql

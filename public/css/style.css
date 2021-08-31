@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+/**Classes gerais**/
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+.clear{
+	clear: both;
+}
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+
+.flex {
+	display: flex;
+}
+
+.center {
+    align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/****/ 
+
+form input[type="text"] {
+    padding: 20px 10px;
+    width: 40%;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+
+form input[type="submit"]{
+    flex-direction: column;
+	padding: 10px 20px;
+}
+
+h2 {
+    font-size: 30px;   
+    color: rgb(131, 131, 131); 
+    margin: 10px auto;
+}
+
+table td {
+	margin: 60px auto;
+	padding: 10px 30px;
+}
+
+table, td{
+	border: 1px solid black;
+}
+

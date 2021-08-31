@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Clientes | Listagem</title>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="description" content="Esse é meu portfólio para demonstrar meus projetos e habilidades.">
+    <meta name="author" content="Rubens Zandomenighi">
+</head>
+<body>
+
+    <h2 class="flex center">Clientes cadastrados: </h2>
+
+<table  class="container">
+    <tr>
+        <th>Nome</th>
+        <th>Sobrenome</th>
+        <th>Empresa</th>
+    </tr>
+
+    
+    <% lista.forEach(function(user){ %>
+    <tr>
+    <td>
+        <%= user.nome %>
+    </td>
+
+    <td>
+        <%= user.sobrenome %>
+    </td>
+
+    <td>
+        <%= user.empresa %>
+    </td>
+</tr>
+<% }) %>
+
+</table>
+
+
+
+
+<!--
+<ul>
+<% lista.forEach(function(user){ %>
+    <li><%= user.nome %></li>
+<% }) %>
+
+</ul>
+<ul>
+    <% lista.forEach(function(user){ %>
+        <li>
+            <%= user.sobrenome %>
+        </li>
+        <% }) %>
+</ul>-->
+</body>
+</html>
